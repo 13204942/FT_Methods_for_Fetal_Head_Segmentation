@@ -6,14 +6,14 @@ The dataset used for the project was taken from the <a href="https://hc18.grand-
 
 ## U-Net 
 The U-Net implemented is shown in the figure below:
-<img src="Images/unet.png" width="990">
+<img src="images/unet.png" width="990">
 
 The encoder is a MobileNet model pre-trained on ImageNet. MobileNet is a deep CNN model developed primarily for the operation of mobile and embedded vision applications. It employs a simplified architecture that makes use of depth-wise separable convolutions, enabling the construction of lightweight deep neural networks with less computational cost, reduced memory, and less power consumption. The MobileNet V2 implemented is shown in the figure below:
-<img src="Images/mobilenet.png" width="990">
+<img src="images/mobilenet.png" width="990">
 
 The summary of the model is as following:
 <p align ='center'>
-<img src="Images/UNet_Mobilenet_Parameters.png" >
+<img src="images/UNet_Mobilenet_Parameters.png" >
 </p>
 
 ## Problem Statement
@@ -26,15 +26,15 @@ Our methodology yielded an exceptional Pixel Accuracy of **97.94%**, a mIoU of *
 
 ### Segmentation
 <p align ='center'>
-<img src="Images/FT_methods.png" >
+<img src="images/FT_methods.png" >
 </p>
 
 <p align ='center'>
-<img src="Images/TL_Test_Results.png" >
+<img src="images/TL_Test_Results.png" >
 </p>
 
 <p align ='center'>
-<img src="Images/Test_visual.png" >
+<img src="images/Test_visual.png" >
 </p>
 
 ## References
