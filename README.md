@@ -6,14 +6,18 @@ The dataset used for the project was taken from the <a href="https://hc18.grand-
 
 ## U-Net 
 The U-Net implemented is shown in the figure below:
-<img src="images/unet.png" width="990">
+<p align ='center'>
+<img src="images/unet.png" width="50%">
+</p>
 
 The encoder is a MobileNet model pre-trained on ImageNet. MobileNet is a deep CNN model developed primarily for the operation of mobile and embedded vision applications. It employs a simplified architecture that makes use of depth-wise separable convolutions, enabling the construction of lightweight deep neural networks with less computational cost, reduced memory, and less power consumption. The MobileNet V2 implemented is shown in the figure below:
-<img src="images/mobilenet.png" width="990">
+<p align ='center'>
+<img src="images/mobilenet.png" width="65%">
+</p>
 
 The summary of the model is as following:
 <p align ='center'>
-<img src="images/UNet_Mobilenet_Parameters.png" >
+<img src="images/UNet_Mobilenet_Parameters.png" width="50%">
 </p>
 
 ## Problem Statement
@@ -24,17 +28,26 @@ Training a deep convolutional neural network (CNN) from scratch is challenging, 
 The results are as follows:
 Our methodology yielded an exceptional Pixel Accuracy of **97.94%**, a mIoU of **93.42%**, and a Dice coefficient of **96.60%** for the HC18 test dataset in just **20 epochs**.
 
-### Segmentation
+Comparison of our methods with the SOTA methods.
+
+### Methodology
 <p align ='center'>
-<img src="images/FT_methods.png" >
+  <figure>
+    <img src="images/FT_methods.png">
+  </figure>
 </p>
 
-<p align ='center'>
-<img src="images/TL_Test_Results.png" >
-</p>
+### Segmentation Results
+
+| Table 1| Table 2 | Table 3 |
+--- | --- | ---
+![](images/TL_Test_Results.png) | ![](images/TL_Test_Results.png) | ![](images/sota_comparison.png)
 
 <p align ='center'>
-<img src="images/Test_visual.png" >
+  <figure>
+    <img src="images/Test_visual.png" >
+    <figcaption> From left to right (a) the original images, (b) the ground truth masks, (c) the predicted masks with our fine-tunned model, (d) the predicted masks by the U-Net baseline model. </figcaption>
+  </figure>
 </p>
 
 ## References
