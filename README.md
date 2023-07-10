@@ -31,6 +31,11 @@ Our methodology yielded an exceptional Pixel Accuracy of **97.94%**, a mIoU of *
 Comparison of our methods with the SOTA methods.
 
 ### Methodology
+
+<p align ='center'>
+  <img src="images/Params_Size.png" width="50%">
+</p>
+
 <p align ='center'>
   <figure>
     <img src="images/FT_methods.png">
@@ -39,9 +44,9 @@ Comparison of our methods with the SOTA methods.
 
 ### Segmentation Results
 
-| Table 1| Table 2 | Table 3 |
---- | --- | ---
-![](images/TL_Test_Results.png) | ![](images/TL_Test_Results.png) | ![](images/sota_comparison.png)
+| Table 2| Table 3 |
+--- | --- 
+![](images/TL_Test_Results.png) | ![](images/sota_comparison.png)
 
 <p align ='center'>
   <figure>
